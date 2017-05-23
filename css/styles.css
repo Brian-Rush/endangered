@@ -7,15 +7,17 @@
 .map {
   height: 100vh;
   width: 1800px;
+  margin-top: 80px;
   position: relative;
 }
 
 #masthead {
-  height:75px;
+  height:40px;
   width: 800px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   color: black;
+  text-shadow: 1px 1px 1px yellow;
   position: fixed;
   top: 10px;
   left: 50%;
@@ -36,7 +38,8 @@
   height: 100px;
   position: relative
   display: inline;
-
+  background-color: white;
+  border-radius: 5px;
 }
 
 .profile-pic img {
@@ -59,4 +62,77 @@
 
 ul {
   list-style: none;
+}
+
+.dino-name::first-letter {
+  text-transform: capitalize;
+}
+
+#diplodocus {
+  top: 5%;
+  left: 18%;
+}
+
+#triceratops {
+  top: 15%;
+  left: 20%;
+}
+
+#giganotosaurus {
+  top:37%;
+  left: 24%;
+}
+
+#irritator {
+  top: 50%;
+  left: 28%;
+}
+
+#irritator .profile-pic img  {
+  transform: translateY(-50%);
+}
+
+#iguanodon {
+  top:2%;
+  left: 55%;
+}
+
+#baryonyx {
+  top:10%;
+  left: 45%;
+}
+
+#giraffatitan {
+  top: 24%;
+  left: 42%;
+}
+
+#afrovenator {
+  top: 36%;
+  left: 50%;
+}
+
+#dilophosaurus {
+  top: 13%;
+  left: 60%;
+}
+
+#fukuiraptor {
+  top: 23%;
+  left: 68%;
+}
+
+#oviraptor {
+  top: 4%;
+  left: 74%;
+}
+
+#australovenator {
+  top: 51%;
+  left: 80%;
+}
+
+#morrosaurus {
+  top: 71%;
+  left: 50%;
 }
