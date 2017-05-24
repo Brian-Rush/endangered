@@ -14,12 +14,12 @@
   width: 1800px;*/
   /*margin-top: 80px;*/
   position: relative;
+  top: 50px;
   z-index: -1;
 }
 
 .map img {
   width: 100%;
-  top: 50px;
 }
 
 #masthead {
@@ -80,22 +80,22 @@ ul {
 }
 
 #diplodocus {
-  top: 5%;
+  top: 4%;
   left: 18%;
 }
 
 #triceratops {
-  top: 15%;
+  top: 18%;
   left: 20%;
 }
 
 #giganotosaurus {
-  top:37%;
+  top:41%;
   left: 24%;
 }
 
 #irritator {
-  top: 50%;
+  top: 60%;
   left: 28%;
 }
 
@@ -104,7 +104,7 @@ ul {
 }
 
 #iguanodon {
-  top:2%;
+  top:1%;
   left: 55%;
 }
 
@@ -114,36 +114,36 @@ ul {
 }
 
 #giraffatitan {
-  top: 24%;
+  top: 34%;
   left: 42%;
 }
 
 #afrovenator {
-  top: 36%;
+  top: 56%;
   left: 50%;
 }
 
 #dilophosaurus {
-  top: 13%;
+  top: 16%;
   left: 60%;
 }
 
 #fukuiraptor {
-  top: 23%;
-  left: 68%;
+  top: 26%;
+  left: 71%;
 }
 
 #oviraptor {
   top: 4%;
-  left: 74%;
+  left: 76%;
 }
 
 #australovenator {
-  top: 51%;
+  top: 61%;
   left: 80%;
 }
 
 #morrosaurus {
-  top: 71%;
+  top: 86%;
   left: 50%;
 }
