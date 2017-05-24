@@ -4,11 +4,22 @@
   box-sizing: border-box;
 }
 
+/*html {
+  height: 1252px;
+  width: 100%
+}*/
+
 .map {
-  height: 100vh;
-  width: 1800px;
-  margin-top: 80px;
+  /*height: 1240px;
+  width: 1800px;*/
+  /*margin-top: 80px;*/
   position: relative;
+  z-index: -1;
+}
+
+.map img {
+  width: 100%;
+  top: 50px;
 }
 
 #masthead {
